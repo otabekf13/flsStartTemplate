@@ -1,9 +1,101 @@
 //====================================================================================================
+.header {
+	
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.logos__cont {
+		display: flex;
+		justify-content:flex-start;
+	}
+	&__logo {
+		width: 50px;
+	}
+	&__logo2 {
+		width: 200px;
+		display: block;
+		@media (max-width:$tablet){
+			display: none;
+		}
+	}
 
-//====================================================================================================
+	&__menu {
+	}
+}
+.menu {
 
-//Burger
-/*
+	&__body {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 70px;
+	}
+	&__button {
+		width: 170px;
+		height: 40px;
+		
+		background: #AC1216;
+		border-radius: 10px;
+		font-weight: 600;
+		font-size: rem(15);
+		line-height: 18px;
+		color: #FFFFFF;
+
+		transition: all 0.3s ease 0s;
+		@media (any-hover: hover){
+			&:hover{
+				background: #fff;
+				color: #AC1216;
+				opacity: 0.8;
+			}
+		}
+		@media (max-width:$tablet){
+			display: none;
+		}
+	}
+	
+	&__list {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		height: 100px;
+		padding: 30px 0;
+		li {
+			margin: 0px 0px 0px 25px;
+		}
+	}
+
+	&__item {
+	}
+
+	&__link {
+		font-size: rem(17);
+		font-weight: 600;
+		line-height: 20px;
+		color: #FFFFFF;
+		opacity: 0.8;
+		// не переносим текст в строке
+		white-space: nowrap;
+
+		transition: all 0.3s ease 0s;
+		@media (any-hover: hover){
+			&:hover{
+				color: #AC1216;
+				opacity: 1;
+			}
+		}
+	}
+
+	&__icon {
+	}
+	&.menu__icon {
+		
+	}
+}
+
 .icon-menu {
 	display: none;
 	@media (max-width: $mobile) {
@@ -51,4 +143,4 @@
 		}
 	}
 }
-*/
+
