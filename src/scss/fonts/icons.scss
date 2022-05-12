@@ -14,3 +14,57 @@
 		display: block;
 	}
 }
+
+._icon-arrowdown .path1:before {
+	content: "\e900";
+	color: rgb(225, 29, 46);
+	opacity: 0.8;
+  }
+  ._icon-arrowdown .path2:before {
+	content: "\e901";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+  }
+  ._icon-fb:before {
+	content: "\e902";
+	color: #fff;
+  }
+  ._icon-gblue:before {
+	content: "\e903";
+	color: #fff;
+  }
+  ._icon-gred:before {
+	content: "\e904";
+	color: #fff;
+  }
+  ._icon-gyellow:before {
+	content: "\e905";
+	color: #fff;
+  }
+  ._icon-insta:before {
+	content: "\e906";
+	color: #fff;
+  }
+  ._icon-m:before {
+	content: "\e907";
+	color: #fff;
+  }
+  ._icon-reddit:before {
+	content: "\e908";
+	color: #fff;
+  }
+  ._icon-star:before {
+	content: "\e909";
+  }
+  ._icon-tg:before {
+	content: "\e90a";
+	color: #fff;
+  }
+  ._icon-twitter:before {
+	content: "\e90b";
+	color: #fff;
+  }
+  ._icon-Union:before {
+	content: "\e90c";
+  }
+  
